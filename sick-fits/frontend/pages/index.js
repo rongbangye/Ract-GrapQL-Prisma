@@ -7,11 +7,12 @@
 //     return <p>Hey!</p>;
 //   }
 // }
+import Items from "../components/Items";
 
 const Home = (props) => {
   return (
     <div>
-      <p>Hey! Function</p>
+      <Items />
     </div>
   );
 };
